@@ -1,4 +1,9 @@
 <?php
-	global $gBitSystem;
-	$gBitSystem->registerPackage( 'Smileys', dirname( __FILE__ ).'/' );
+global $gBitSystem;
+
+$registerHash = array(
+	'package_name' => 'smileys',
+	'package_path' => dirname( __FILE__ ).'/',
+);
+$gBitSystem->registerPackage( $registerHash );
 ?>
