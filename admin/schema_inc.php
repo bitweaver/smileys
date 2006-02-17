@@ -7,4 +7,11 @@ $gBitInstaller->registerPackageInfo( SMILEYS_PKG_NAME, array(
 	'state' => 'stable',
 	'dependencies' => '',
 ) );
+
+// ### Default UserPermissions
+$gBitInstaller->registerUserPermissions( STICKIES_PKG_NAME, array(
+	array('bit_p_use_smileys', 'Can use smilies', 'basic', SMILEYS_PKG_NAME),
+) );
+
+
 ?>
