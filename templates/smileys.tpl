@@ -1,4 +1,4 @@
-{if $gBitUser->hasPermission('bit_p_use_smileys')}
+{if $gBitUser->hasPermission('p_smileys_use')}
 <a href="javascript:insertAt('{$textarea_id}','(:exclaim:)');">{biticon iforce=icon ipackage="smileys" iname="exclaim" iexplain="exclaimation"}</a>
 <a href="javascript:insertAt('{$textarea_id}','(:arrow:)');">{biticon iforce=icon ipackage="smileys" iname="arrow" iexplain="arrow"}</a>
 <a href="javascript:insertAt('{$textarea_id}','(:question:)');">{biticon iforce=icon ipackage="smileys" iname="question" iexplain="question"}</a>
