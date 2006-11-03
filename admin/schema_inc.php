@@ -6,9 +6,7 @@ $gBitInstaller->registerPackageInfo( SMILEYS_PKG_NAME, array(
 ) );
 
 // ### Default UserPermissions
-$gBitInstaller->registerUserPermissions( STICKIES_PKG_NAME, array(
+$gBitInstaller->registerUserPermissions( SMILEYS_PKG_NAME, array(
 	array('p_smileys_use', 'Can use smilies', 'basic', SMILEYS_PKG_NAME),
 ) );
-
-
 ?>
