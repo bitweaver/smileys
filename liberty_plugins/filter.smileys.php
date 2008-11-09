@@ -1,6 +1,6 @@
 <?php
 /**
- * @version  $Header: /cvsroot/bitweaver/_bit_smileys/liberty_plugins/filter.smileys.php,v 1.1 2008/07/08 06:54:18 squareing Exp $
+ * @version  $Header: /cvsroot/bitweaver/_bit_smileys/liberty_plugins/filter.smileys.php,v 1.2 2008/11/09 09:08:55 squareing Exp $
  * @package  liberty
  * @subpackage plugins_filter
  */
@@ -16,7 +16,6 @@ $pluginParams = array(
 	'title'              => 'Smileys',
 	'description'        => 'If you are using the smileys package, you need to enable this filter to insert smileys where needed.',
 	'auto_activate'      => TRUE,
-	'path'               => LIBERTY_PKG_PATH.'plugins/filter.smileys.php',
 	'plugin_type'        => FILTER_PLUGIN,
 
 	// filter functions
