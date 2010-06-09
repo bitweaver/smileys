@@ -1,6 +1,6 @@
 <?php
 /**
- * @version  $Header: /cvsroot/bitweaver/_bit_smileys/liberty_plugins/filter.smileys.php,v 1.2 2008/11/09 09:08:55 squareing Exp $
+ * @version  $Header$
  * @package  liberty
  * @subpackage plugins_filter
  */
