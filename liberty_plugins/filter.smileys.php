@@ -32,7 +32,7 @@ function smileys_filter( &$pData, &$pFilterHash ) {
 		$smileys[1] = array_unique( $smileys[1] );
 
 		if( !empty( $smileys[1] ) ) {
-			$gBitSmarty->loadPlugin( 'smarty_modifier_biticon' );
+			$gBitSmarty->loadPlugin( 'smarty_function_biticon' );
 			foreach( $smileys[1] as $key => $smiley ) {
 				$biticon = array(
 					'ipackage' => 'smileys',
